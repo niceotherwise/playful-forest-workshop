@@ -1,0 +1,38 @@
+body {
+    font-family: 'PT Mono', monospace;
+}
+
+
+.dg {
+    display: grid;
+}
+
+.grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 40%;
+}
+
+.bg-gradient {
+    background: rgb(124,255,161);
+    background: linear-gradient(180deg, rgba(124,255,161,1) 52%, rgba(195,252,207,1) 90%, rgba(117,77,0,1) 98%, rgba(117,77,0,1) 100%);
+
+}
+
+.bg-bark-brown {
+    background-color: #754d00;
+}
+
+.verti-center {
+    left: 50%;
+    top: 50%;
+    -ms-transform: translateY(-60%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%)  translateY(-60%);
+}
+
+
+.horizon-center {
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
